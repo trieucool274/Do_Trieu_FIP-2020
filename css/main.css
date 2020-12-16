@@ -1,0 +1,312 @@
+@charset "UTF-8"
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	background-color: white;
+}
+body
+{
+font-family:Times New Roman, Helvetica, sans-serif;
+font-size:14px;
+}
+h2 {
+  color: white;
+}
+img {
+	border-radius: 20%;
+	isolation: ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1
+{
+	color: red;
+}
+h3{
+	font-style: sans-serif;
+	font-size: 16px;
+}
+/*container for all page*/ 
+#container
+{
+	margin: auto;
+	width:1000px;
+	height: auto;
+	overflow: hidden;
+	background-color: pink;
+	padding: 20px 10px;
+	flex-wrap: wrap;
+}
+/*Main page*/
+.mainheading {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 1000px;
+  height: 200px;
+  background-color: pink;
+}
+
+.navcon {
+  background-color: pink;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+.mainnav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  background-color: pink;
+}
+
+.nornav {
+  background-color: pink;
+  width: 400px;
+  height: 190px;
+  margin: 10px;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 400px;
+  height: 250px;
+  background-color: pink;
+}
+
+.flex-item {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+	
+
+#navCon
+{
+	width: 650px;
+	overflow: hidden;
+	margin-bottom:  auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+#posting
+{
+width: 400px;
+	height: auto;
+	background-color: #9a0d67;
+	margin-top: auto;
+	margin-left: auto;
+}
+
+		
+.oldpic {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1100px;
+  height: 550px;
+  background-color: pink;
+}
+
+.olditem {
+  background-color: black;
+  width: 330px;
+  height: 410px;
+  margin: 50px;
+}
+div {
+    font-size:medium;
+}
+.newpic {
+  display: -webkit-flex;
+  display: flex;
+  width: 1100px;
+  height: 550px;
+  background-color: pink;
+}
+
+.newitem {
+  background-color: grey;
+  width: 330px;
+  height: 410px;
+  margin: 20px;
+  margin-top: 70px;
+}
+ .punch {
+  display: -webkit-flex;
+  display: flex;
+  width: 600px;
+  height: 550px;
+  background-color: pink;
+}
+
+.punchitem {
+  background-color: #FFE4E1;
+  width: 410px;
+  height: 510px;
+  margin: auto;
+}
+/* css for footer*/
+.lastthing {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 160px;
+  background-color: #FFDEAD;
+}
+
+.lastitem {
+  background-color: #FFDEAD;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+}
+/*About Us page*/
+.aboutbox {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-start;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 1000px;
+  height: 100px;
+  background-color: pink;
+}
+
+.aboutitem {
+  background-color: #FFE4C4;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+}
+.downabout {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 1000px;
+  height: 500px;
+  background-color: pink;
+}
+
+.downtext {
+  background-color: pink;
+  width: 500px;
+  height: 150px;
+  margin: 40px; 
+}
+/*css for blog page*/
+.blogformid {
+  display: flex;
+  width: 1000px;
+  height: 350px;
+  background-color: pink;
+}
+
+.formiditem {
+  background-color: pink;
+  width: 190px;
+  min-height: 200px;
+  margin: 5px;
+}
+
+.formiditem1 {
+  align-self: flex-start;
+}
+.formiditem2 {
+  align-self: flex-end;
+}
+
+.formiditem3 {
+  align-self: center;
+}
+
+.formiditem4 {
+  align-self: baseline;
+}
+
+.formiditem5 {
+  align-self: stretch;
+}
+.blogforbreme {
+  display: flex;
+  width: 1000px;
+  height: 350px;
+  background-color: pink;
+}
+
+.bremeitem {
+  background-color: pink;
+  width: 190px;
+  min-height: 100px;
+  margin: 0px;
+}
+
+.bremeitem1 {
+  align-self: flex-end;
+}
+.bremeitem2 {
+  align-self: flex-start;
+}
+
+.bremeitem3 {
+  align-self: flex-end;
+}
+
+.bremeitem4 {
+  align-self: flex-start;
+  height: 100px
+  width:10px;
+}
+
+.bremeitem5 {
+  align-self: baseline;
+}
+.blogforsei {
+  display: flex;
+  width: 1000px;
+  height: 470px;
+}
+
+.seiitem {
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+}
+.blogfornun {
+  display: flex;
+  width: 1000px;
+  height: 470px;
+}
+
+.nunitem {
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+}
+
+
+
+
+
+
